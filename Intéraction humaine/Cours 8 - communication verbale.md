@@ -21,7 +21,7 @@
 	- de la gestuelle
 	- du jargon
 	- de l'habillement
-- S'adapter a l'autre incite de la cinfiance
+- S'adapter a l'autre incite de la confiance
 
 ---
 # Les pieges a eviter
