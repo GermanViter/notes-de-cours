@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"400b8b2219b259bd","type":"text","text":"# Items dans le jeux\n- ## Concept\n\t- Evenement dans le jeux qui te donne une potion ou un item de combat\n- ## Idees implementees ✅\n\t- Potion de soin qui apparait quand HP < 50% du max\n\t- Potion de mana qui apparait quand Mana < 50% du max\n\t- Items d'attaque :\n\t\t- **Grenade** (150 dégâts)\n\t- **Amulette** : +40 dégâts/attaque, mais -10 HP/tour (1/20 chance)\n- ## Idees non implementees ❌\n\t- **Pistolet**\n","x":-1460,"y":-480,"width":600,"height":560},
+		{"id":"58865e2f030749f0","type":"text","text":"# Features\n- ## Items ✅\n- ## Mobs ✅\n- ## Narration ✅ (typewriter effect)\n- ## Functionalities\n\t- Sauvegarde JSON ✅\n\t- Système XP / Niveaux ✅\n\t- Timer anti-AFK ✅\n\n","x":-240,"y":760,"width":760,"height":685},
+		{"id":"ffcee379a4683fe7","type":"file","file":"POO/2026-04-05.md","x":-640,"y":-480,"width":400,"height":400},
+		{"id":"3d916dc37f68f6ae","type":"file","file":"POO/Implementation des items de bases.md","x":-1880,"y":235,"width":1160,"height":885},
+		{"id":"a9d47a5553292a03","type":"text","text":"# Ce qui rend le jeux interressant\n- ## Histoire / narration ✅\n\t- Messages d'attaque aléatoires par monstre\n\t- Effet typewriter (ConsoleUtils)\n\t- Couleurs ANSI (ConsoleColors)\n- ## GUI (pas implémenté) ❌","x":840,"y":1000,"width":538,"height":445},
+		{"id":"cbca58839783967c","type":"file","file":"POO/2026-04-07 features.md","x":-320,"y":1886,"width":420,"height":390},
+		{"id":"75f5e254e86a2f8a","type":"file","file":"POO/2026-04-06.md","x":-1140,"y":1595,"width":420,"height":480},
+		{"id":"3fc7d052363f5cfb","type":"file","file":"POO/2026-04-06-features.md","x":-2080,"y":1435,"width":400,"height":400},
+		{"id":"1e8769548a2c15d0","type":"text","text":"# Idees pour le futur\n- ## **JSON** storage ✅ implémenté\n\t- `PlayerSave.java` : stocke hero, inventaire, flags\n\t- `SaveManager.java` : sérialisation Gson avec désérialiseurs custom\n\t- Fichiers dans `users_info/<nom>.json`\n- ## Effets de statut ❌ pas implémentés\n\t- ### Poison\n\t- ### Feu\n\t- ### ...","x":460,"y":1740,"width":465,"height":309},
+		{"id":"491024cc3bb92527","type":"file","file":"POO/2026-04-08-features.md","x":1240,"y":1740,"width":760,"height":840},
+		{"id":"98590e452fff9958","type":"file","file":"POO/Json implementation (ShadowArena).md","x":0,"y":2640,"width":712,"height":640},
+		{"id":"hero_stats_node","type":"text","text":"# Stats des héros (valeurs réelles)\n| Héros | HP | Mana | ATQ | Coût SPE |\n|---|---|---|---|---|\n| Mage | 400 | 600 | 40 | 80 mana |\n| Knight | 450 | 600 | 35 | 80 mana |\n| Berserker | 500 | 200 | 50+ | 100 mana |\n\n- **Défense** : 60 mana → bloque 100% dégâts 1 tour\n- **XP par monstre** : 50 pts → level up à 150 XP\n- **Level up** : +5 ATQ, +20 HP max, +10 Mana max","x":840,"y":-480,"width":560,"height":480},
+		{"id":"hierarchy_node","type":"text","text":"# Hiérarchie des classes (POO)\n## GameCharacter (abstraite)\n- → Hero (abstraite)\n\t- → Mage (impl. MageAbilities)\n\t- → Knight (impl. KnightAbilities)\n\t- → Berserker (impl. BerserkerAbilities)\n- → Monster (abstraite)\n\t- → Goblin | GiantSnake | Troll | Cerberus | Dragon\n\n## GameItem (abstraite)\n- → AttackItem → Grenade\n- → HealingItem → Potion | ManaPotion\n- → BuffItem → Amulette","x":-2080,"y":-480,"width":560,"height":480},
+		{"id":"b646ac3ba80241e2","type":"file","file":"POO/Projet Final README.md","x":-1460,"y":-1640,"width":1349,"height":970}
+	],
+	"edges":[
+		{"id":"1e5337196470b3e8","fromNode":"58865e2f030749f0","fromSide":"bottom","toNode":"75f5e254e86a2f8a","toSide":"top"},
+		{"id":"cb82b28d979c2e30","fromNode":"58865e2f030749f0","fromSide":"top","toNode":"ffcee379a4683fe7","toSide":"bottom"},
+		{"id":"a1764930c3a8d04d","fromNode":"400b8b2219b259bd","fromSide":"bottom","toNode":"3d916dc37f68f6ae","toSide":"top"},
+		{"id":"5c9ecd18321a6e7c","fromNode":"ffcee379a4683fe7","fromSide":"left","toNode":"3d916dc37f68f6ae","toSide":"right"},
+		{"id":"7817e91b1fa96540","fromNode":"58865e2f030749f0","fromSide":"right","toNode":"a9d47a5553292a03","toSide":"left"},
+		{"id":"79d558f3fd40ecb5","fromNode":"75f5e254e86a2f8a","fromSide":"left","toNode":"3fc7d052363f5cfb","toSide":"right"},
+		{"id":"0be0fe95d69ac1d6","fromNode":"58865e2f030749f0","fromSide":"bottom","toNode":"cbca58839783967c","toSide":"top"},
+		{"id":"0b528054716d6f8e","fromNode":"58865e2f030749f0","fromSide":"bottom","toNode":"1e8769548a2c15d0","toSide":"top"},
+		{"id":"b4b95a6c70cebfb7","fromNode":"58865e2f030749f0","fromSide":"top","toNode":"491024cc3bb92527","toSide":"left"},
+		{"id":"73507e14a29a76cf","fromNode":"1e8769548a2c15d0","fromSide":"bottom","toNode":"491024cc3bb92527","toSide":"left"},
+		{"id":"8671b64db287acbd","fromNode":"491024cc3bb92527","fromSide":"bottom","toNode":"98590e452fff9958","toSide":"top"},
+		{"id":"hero_to_readme","fromNode":"hero_stats_node","fromSide":"left","toNode":"b646ac3ba80241e2","toSide":"right"},
+		{"id":"hierarchy_to_items","fromNode":"hierarchy_node","fromSide":"right","toNode":"400b8b2219b259bd","toSide":"left"}
+	]
+}
