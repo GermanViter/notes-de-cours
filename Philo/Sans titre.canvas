@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"12fbaf45edd8fae8","type":"text","text":"# Hypothese","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"66f4d338a196b9bc","type":"text","text":"# conclusion","x":-380,"y":187,"width":250,"height":60},
+		{"id":"753cc31ff32f458d","type":"text","text":"# Un autre principe","x":394,"y":-171,"width":250,"height":60},
+		{"id":"d421e32af1598d10","type":"text","text":"# Principes","x":-298,"y":-183,"width":250,"height":60},
+		{"id":"782b6c3b2944074d","type":"text","text":"# [[Soleil#Hypothese (principe) -> conclusion | Hypothese mene a une conclusion]]","x":-240,"y":-440,"width":540,"height":80},
+		{"id":"48b94ba958e31ef4","type":"text","text":"# Principe supreme (le bien)","x":-60,"y":-300,"width":420,"height":80}
+	],
+	"edges":[
+		{"id":"307d32e05a6d8c89","fromNode":"12fbaf45edd8fae8","fromSide":"bottom","toNode":"66f4d338a196b9bc","toSide":"top"},
+		{"id":"92512ed3d3bab045","fromNode":"48b94ba958e31ef4","fromSide":"right","toNode":"753cc31ff32f458d","toSide":"left"},
+		{"id":"d75c75bc0bff3e5a","fromNode":"12fbaf45edd8fae8","fromSide":"top","toNode":"d421e32af1598d10","toSide":"bottom"},
+		{"id":"076a4d9dab303509","fromNode":"d421e32af1598d10","fromSide":"top","toNode":"48b94ba958e31ef4","toSide":"left"}
+	]
+}
