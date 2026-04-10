@@ -1,3 +1,8 @@
+---
+tags:
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 06 — Fonctions SQL
 
 > [[00 - Index|← Index]] | Précédent : [[05 - Le langage SQL — SELECT]] | Suivant : [[07 - GROUP BY, DISTINCT et agrégation]]

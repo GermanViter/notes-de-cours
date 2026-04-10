@@ -1,3 +1,8 @@
+---
+tags:
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 05 — Le langage SQL — SELECT (DQL)
 
 > [[00 - Index|← Index]] | Précédent : [[04 - Environnement du cours (SQL Server)]] | Suivant : [[06 - Fonctions SQL]]

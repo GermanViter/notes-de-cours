@@ -1,3 +1,9 @@
+---
+tags:
+  - Cl
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 09 — Les jointures
 
 > [[00 - Index|← Index]] | Précédent : [[08 - DDL — Data Definition Language]]

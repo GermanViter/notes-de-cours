@@ -1,3 +1,8 @@
+---
+tags:
+  - poo
+  - poo/projet
+---
 # Implementation
 - ## Package : 
 	- **Core** pour definire ce que c'est un item

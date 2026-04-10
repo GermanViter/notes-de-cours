@@ -1,3 +1,8 @@
+---
+tags:
+  - poo
+  - poo/cours
+---
 # Redéfinition (`@Override`)
 
 ## Comportement différent

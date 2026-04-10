@@ -1,3 +1,8 @@
+---
+tags:
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 07 — GROUP BY, DISTINCT et agrégation
 
 > [[00 - Index|← Index]] | Précédent : [[06 - Fonctions SQL]] | Suivant : [[08 - DDL — Data Definition Language]]

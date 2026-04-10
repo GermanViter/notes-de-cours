@@ -1,3 +1,8 @@
+---
+tags:
+  - philo
+  - philo/cours
+---
 # [[Soleil#📏 La Ligne (Ontologie & Épistémologie)|📏 La Ligne (Ontologie & Épistémologie)]]
 
 |                                               | **Monde visible**                                                                             | **Monde intelligible**                                                                                       |

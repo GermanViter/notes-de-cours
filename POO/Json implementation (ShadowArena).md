@@ -1,3 +1,9 @@
+---
+tags:
+  - Reading
+  - poo
+  - poo/projet
+---
 ## [[2026-04-08-features#Reading files (json, csv, txt) | Plan]] 
 - ## Data (PlayerSave.java)
 	- **Holds information**

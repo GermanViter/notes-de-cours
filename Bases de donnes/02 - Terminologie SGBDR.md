@@ -1,3 +1,8 @@
+---
+tags:
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 02 — Terminologie SGBDR
 
 > [[00 - Index|← Index]] | Précédent : [[01 - Introduction aux bases de données]] | Suivant : [[03 - Les objets d'une base de données]]

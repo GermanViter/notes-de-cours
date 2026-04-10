@@ -1,3 +1,8 @@
+---
+tags:
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 04 — Environnement du cours (SQL Server)
 
 > [[00 - Index|← Index]] | Précédent : [[03 - Les objets d'une base de données]] | Suivant : [[05 - Le langage SQL — SELECT]]

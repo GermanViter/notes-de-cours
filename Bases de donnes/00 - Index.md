@@ -1,3 +1,13 @@
+---
+tags:
+  - D
+  - Table
+  - Cl
+  - Syntaxe
+  - Cr
+  - bases-de-données
+  - bases-de-données/index
+---
 # 📚 Bases de données — Index du cours
 
 > Cours 420-212 · Professeur : Kola Couthon

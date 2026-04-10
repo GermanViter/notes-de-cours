@@ -1,3 +1,8 @@
+---
+tags:
+  - philo
+  - philo/cours
+---
 # 🌞 Le Soleil — Analogie de Platon
 
 > Le soleil permet aux choses de **vivre et de croître**, mais il n'est pas ce qui perçoit — il est ce qui **permet de percevoir**.

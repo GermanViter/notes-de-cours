@@ -1,3 +1,9 @@
+---
+tags:
+  - Types
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 08 — DDL — Data Definition Language
 
 > [[00 - Index|← Index]] | Précédent : [[07 - GROUP BY, DISTINCT et agrégation]] | Suivant : [[09 - Les jointures]]

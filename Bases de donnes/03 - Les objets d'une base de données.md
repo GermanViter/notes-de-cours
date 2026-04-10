@@ -1,3 +1,9 @@
+---
+tags:
+  - Types
+  - bases-de-données
+  - bases-de-données/cours
+---
 # 03 — Les objets d'une base de données
 
 > [[00 - Index|← Index]] | Précédent : [[02 - Terminologie SGBDR]] | Suivant : [[04 - Environnement du cours (SQL Server)]]
