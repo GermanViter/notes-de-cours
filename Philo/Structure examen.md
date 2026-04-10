@@ -1,0 +1,8 @@
+- # Explications
+	- ## Dire pourquoi et c'est quoi la relations entre arguments
+	- ## Avoir des arguments pour et contre en rapport avec la question
+	- ## Conclusion finale
+		- ### Comment arrive-t-on a cette conclusion
+- # Plan de problematique
+	- ## Quels sont les problemes importants
+	- ## Pourquoi la question pose-t-elle probleme
