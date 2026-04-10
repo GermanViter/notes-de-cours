@@ -155,6 +155,11 @@ ALTER TABLE tblEtudiant
 ALTER COLUMN Courriel NVARCHAR(100) NULL
 ```
 
+### Modifier le type d'une colonne
+```SQL
+ALTER TABLE tableEx
+ALTER COLUMN nomCol DATE
+```
 ### Supprimer une colonne
 
 > ⚠️ Impossible si la colonne est dans une contrainte ou fait partie d'une clé primaire.

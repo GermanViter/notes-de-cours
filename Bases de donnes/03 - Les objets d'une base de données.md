@@ -49,30 +49,30 @@ Exemple : NomEtudiant — 40 caractères
 
 ### Numériques
 
-| Type | Plage |
-|---|---|
-| `tinyint` | 0 à 255 |
-| `smallint` | -32 766 à 32 767 |
-| `int` | -2 147 483 648 à 2 147 483 647 |
-| `bigint` | ± 9 223 372 036 854 775 808 |
-| `float` | Nombre décimal (ex : 1234.50) |
+| Type       | Plage                          |
+| ---------- | ------------------------------ |
+| `tinyint`  | 0 à 255                        |
+| `smallint` | -32 766 à 32 767               |
+| `int`      | -2 147 483 648 à 2 147 483 647 |
+| `bigint`   | ± 9 223 372 036 854 775 808    |
+| `float`    | Nombre décimal (ex : 1234.50)  |
 
 ### Chaînes de caractères
 
 Stocke tous les caractères alphanumériques : A→Z, a→z, 0-9, espace.
 
-| Type | Description |
-|---|---|
-| `nchar(n)` | Chaîne de **longueur fixe** de n caractères |
+| Type          | Description                                     |
+| ------------- | ----------------------------------------------- |
+| `nchar(n)`    | Chaîne de **longueur fixe** de n caractères     |
 | `nvarchar(n)` | Chaîne de **longueur variable** de n caractères |
 
 ### Date et heure
 
-| Type | Description |
-|---|---|
-| `date` | Date entre 01-01-01 et 12-31-9999 |
-| `time(n)` | Heure format 24h — n = précision centièmes |
-| `datetime` | Date + heure dans la même colonne |
+| Type       | Description                                |
+| ---------- | ------------------------------------------ |
+| `date`     | Date entre 01-01-01 et 12-31-9999          |
+| `time(n)`  | Heure format 24h — n = précision centièmes |
+| `datetime` | Date + heure dans la même colonne          |
 
 Exemple :
 ```
@@ -83,8 +83,8 @@ datetime → 01-01-01 11:15:05:245
 
 ### Complexes
 
-| Type | Description |
-|---|---|
+| Type               | Description                                   |
+| ------------------ | --------------------------------------------- |
 | `uniqueidentifier` | Valeur unique séquentielle automatique (GUID) |
 
 ---
